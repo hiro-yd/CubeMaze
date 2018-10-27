@@ -1,13 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class RayManager : MonoBehaviour {
-    
+
+    #region Ray
     public Ray Rightray;
     public Ray Leftray;
     public Ray Upray;
     public Ray Downray;
+    #endregion
 
     public static RayManager Instance;
 

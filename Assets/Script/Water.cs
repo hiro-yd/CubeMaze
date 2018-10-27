@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Water : MonoBehaviour {
-    
+public class Water : MonoBehaviour{
+
+    #region Material
     [SerializeField]
     Material Red;
     [SerializeField]
@@ -16,6 +15,7 @@ public class Water : MonoBehaviour {
     Material LightBlue;
     [SerializeField]
     Material Yellow;
+    #endregion
 
     public static bool isWater = false;
 
@@ -25,6 +25,7 @@ public class Water : MonoBehaviour {
         {
             isWater = true;
 
+            #region GetTag
             if (other.gameObject.tag == "Red")
             {
                 other.gameObject.GetComponent<Renderer>().material = Red;
@@ -54,6 +55,8 @@ public class Water : MonoBehaviour {
             {
                 other.gameObject.GetComponent<Renderer>().material = LightBlue;
             }
+            #endregion
+
         }
     }
 }

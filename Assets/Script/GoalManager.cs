@@ -1,25 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class GoalManager : MonoBehaviour {
 
     [SerializeField]
+
+    #region GameObject
     private ColorJudge Cm;
     private GameObject Player;
     private GameObject GoalEffect;
     private GameObject GoalPanel;
     private GameObject Starcheck;
+    #endregion
 
     public static bool goal = false;
 
     void Start()
     {
+        #region Find
         Starcheck = GameObject.Find("StarCheck");
         GoalEffect = GameObject.Find("GoalEffect");
         Player = GameObject.Find("Player_Cube");
         GoalPanel = GameObject.Find("Canvas/GoalPanel");
+        #endregion
+
         GoalEffect.SetActive(false);
         GoalPanel.SetActive(false);
         PlayerController.moveCount = 0;

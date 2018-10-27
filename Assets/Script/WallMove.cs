@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class WallMove : MonoBehaviour
 {
@@ -25,8 +23,13 @@ public class WallMove : MonoBehaviour
     void MoveWall()
     {
         for (int i = 0; i < wall.Length; i++)
+        {
             wall[i].transform.position += new Vector3(0, -0.1f, 0);
-        if (wall[0].transform.position.y < -0.5)
-            isMove = false; isUse = true;
+            if (wall[i].transform.position.y <= -0.5)
+            {
+                wall[i].transform.position = new Vector3(wall[i].transform.position.x,-0.5f,wall[i].transform.position.z);
+                isMove = false; isUse = true;
+            }
+        }
     }
 }

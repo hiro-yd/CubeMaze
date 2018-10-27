@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BackGroundObject : MonoBehaviour
 {
@@ -10,6 +8,7 @@ public class BackGroundObject : MonoBehaviour
         Rotate,
         Stay
     }
+
     [SerializeField]
     Type type;
 
