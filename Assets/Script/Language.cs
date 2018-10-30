@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine.UI;
 
 public class Language : MonoBehaviour
@@ -15,7 +17,7 @@ public class Language : MonoBehaviour
      * 
      * 
     */
-    
+
     [SerializeField, Multiline]
     string JpText;
     [SerializeField]
@@ -45,14 +47,18 @@ public class Language : MonoBehaviour
 
     public void Us()
     {
+#if UNITY_EDITOR
         text.font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Font/Us.ttf");
+#endif
         text.fontSize = UsFontSize;
         text.text = UsText;
     }
 
     public void Jp()
     {
+#if UNITY_EDITOR
         text.font = AssetDatabase.LoadAssetAtPath<Font>("Assets/Font/Jp.ttf");
+#endif
         text.fontSize = JpFontSize;
         text.text = JpText;
     }

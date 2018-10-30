@@ -244,6 +244,7 @@
     <Compile Include="Assets\Script\FadeManager.cs" />
     <Compile Include="Assets\Script\FadeTitle.cs" />
     <Compile Include="Assets\Script\FakeGif.cs" />
+    <Compile Include="Assets\Script\GoalAnimation.cs" />
     <Compile Include="Assets\Script\GoalManager.cs" />
     <Compile Include="Assets\Script\HowToPlay.cs" />
     <Compile Include="Assets\Script\Ice.cs" />

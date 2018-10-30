@@ -14,16 +14,14 @@ public class Save : MonoBehaviour
         else
             Destroy(gameObject);
     }
-    private void Update()
+    /* private void Update()
     {
         if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
             PlayerPrefs.DeleteAll();
-        }
-    }
+    }*/
 
     #region StarSave
-    //星の数セーブしたよ～
+    //星の数セーブしたよ
     public void OnStarSave(bool[] star)
     {
         if (star[0] == false && star[1] == false && star[2] == false)//☆☆☆
@@ -75,12 +73,13 @@ public class Save : MonoBehaviour
     #endregion
 
     #region Clear
+    //clearデータセーブしたよ
     public void OnClearSave()
     {
         PlayerPrefs.SetInt("Clear" + StageNumber.Stagenumber, 1);
-        if(StageNumber.Stagenumber == 3)
+        if (StageNumber.Stagenumber == 3)
         {
-            PlayerPrefs.SetInt("Clear6",1);
+            PlayerPrefs.SetInt("Clear6", 1);
         }
     }
     public int OnClearLoad(int i)
@@ -90,6 +89,7 @@ public class Save : MonoBehaviour
     #endregion
 
     #region Line
+    //線の有り無しをセーブしたよ
     public void OnLineSave()
     {
         PlayerPrefs.SetInt("Line" + StageNumber.Stagenumber, 1);
@@ -97,7 +97,7 @@ public class Save : MonoBehaviour
         {
             PlayerPrefs.SetInt("Line6", 1);
         }
-        if(StageNumber.Stagenumber == 6)
+        if (StageNumber.Stagenumber == 6)
         {
             PlayerPrefs.SetInt("Line9", 1);
         }

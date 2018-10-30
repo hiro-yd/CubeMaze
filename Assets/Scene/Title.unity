@@ -1232,12 +1232,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JpText: "<size=70><color=yellow>-\u8A55\u4FA1-\r</color></size>\n\u3053\u308C\u306F\u5404\u30B9\u30C6\u30FC\u30B8\u3054\u3068\u306B\u7528\u610F\u3055\u308C\u3066\u3044\u3066\r\n\u6700\u5927\u3067\u8A55\u4FA1\uFF13\u306B\u306A\u308A\u307E\u3059\u3002\r\n\u4E00\u3064\u76EE\u306F\u30B4\u30FC\u30EB\u3092\u3059\u308B\u3068\u304D\u306B\u3082\u3089\u3048\u308B\u3002\r\n\u4E8C\u3064\u76EE\u306F\u30B9\u30C6\u30FC\u30B8\u3054\u3068\u306B\u7528\u610F\u3055\u308C\u3066\u3044\u308B\r\u6C7A\u3081\u3089\u308C\u305F\u30AD\u30E5\u30FC\u30D6\u3092\u52D5\u304B\u3059\u56DE\u6570\u4EE5\u4E0B\r\u3067\u30B4\u30FC\u30EB\u3059\u308B\u3002\n\u4E09\u3064\u76EE\u306F\u5168\u30B9\u30C6\u30FC\u30B8\u306B\r\u7F6E\u3044\u3066\u3042\u308B\u30B9\u30BF\u30FC\u3092\u3068\u308B\u3053\u3068\n\u3053\u308C\u3089\u3092\u3059\u3079\u3066\u9054\u6210\u3059\u308B\u3068\u8A55\u4FA1\u304C\r\n\uFF13\u306B\u306A\u308A\u307E\u3059\u3002\u5168\u30B9\u30C6\u30FC\u30B8\u306E\u8A55\u4FA1\u3092\r\n\uFF13\u306B\u3057\u3066\u307F\u3088\u3046\uFF01\uFF01"
   JpFontSize: 40
-  UsText: "<size=60><color=yellow>-Evaluation-</color></size>\r\nIn each stage there
-    is 3 tasks for \"Evaluation\"\r\nTask 1:You need to finish the stage to get this
-    point.\r\nTask 2:You need to finish the stage with below the certain number of
-    times to move.\r\nTask 3:You need to get the star in that stage.\r\r\nIf you complete
-    these tasks \nyou can get 3 points!\r\nTry to get every 3 points in every stages!!!"
-  UsFontSize: 42
+  UsText: "<size=60><color=yellow>- Reward (provisional) -</color></size>\r\nFor each
+    stage in the game you finish, you may receive up to 3 Stars as a reward\r\nCompletely
+    each of the below you will receive a Star for the stage completed\r\n1) Move the
+    Cube to Goal\r\n2) You move count is equal to or less than the minimum specified\r\n3)
+    Find and move on top of the star in that stage"
+  UsFontSize: 45
 --- !u!1 &221771907
 GameObject:
   m_ObjectHideFlags: 0
@@ -4604,33 +4604,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 800, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1756991578
-MonoBehaviour:
+--- !u!95 &1756991578
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756991576}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f9315969bb16ddb449c730a7eda6e8b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!222 &1756991579
 CanvasRenderer:
   m_ObjectHideFlags: 0
