@@ -9,6 +9,7 @@ public class OnClickManager : MonoBehaviour
     GameObject PauseManager;
     GameObject OptionPanel;
 
+    GameObject DeletePanel;
     GameObject TitlePanel;
     GameObject ClickToStart;
     GameObject ClickText;
@@ -19,6 +20,7 @@ public class OnClickManager : MonoBehaviour
 
     bool isOption = false;
     bool isHowTo = false;
+    bool isDelete = false;
 
     string name = null;
 
@@ -28,6 +30,7 @@ public class OnClickManager : MonoBehaviour
         #region Find
         ClickText = GameObject.Find("Canvas/ClickText");
         HowToPlayMenu = GameObject.Find("Canvas/HowToPlay");
+        DeletePanel = GameObject.Find("StayCanvas/DeletePanel");
         ClickToStart = GameObject.Find("Canvas/MainMenuButton");
         TitlePanel = GameObject.Find("Canvas/TitlePanel");
         PauseManager = GameObject.Find("PauseManager");
@@ -37,6 +40,9 @@ public class OnClickManager : MonoBehaviour
         #endregion
 
         #region NullCheck
+        if (DeletePanel != null)
+            DeletePanel.SetActive(false);
+
         if (NextPageButton != null)
             NextPageButton.SetActive(false);
 
@@ -109,11 +115,6 @@ public class OnClickManager : MonoBehaviour
     {
         HowToPlay.NowPage--;
     }
-
-    public void Delete()
-    {
-        PlayerPrefs.DeleteAll();
-    }
     #endregion
 
     #region GameButton
@@ -133,7 +134,11 @@ public class OnClickManager : MonoBehaviour
     {
         isOption = !isOption;
         if (isOption)
+        {
+            isDelete = false;
+            DeletePanel.SetActive(false);
             OptionPanel.SetActive(true);
+        }
         if (!isOption)
             OptionPanel.SetActive(false);
     }
@@ -165,10 +170,31 @@ public class OnClickManager : MonoBehaviour
         Invoke("Delay", 1.0f);
     }
 
+    public void Delete()
+    {
+        isDelete = !isDelete;
+        if (isDelete)
+        {
+            isOption = false;
+            OptionPanel.SetActive(false);
+            DeletePanel.SetActive(true);
+        }
+        else if (!isDelete)
+        {
+            DeletePanel.SetActive(false);
+        }
+    }
+
+    public void DeleteSave()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     void Delay()
     {
         GoalManager.goal = false;
         SceneManager.LoadScene(name);
+        FadeTitle.isFadeTitle = false;
     }
     #endregion
 }
