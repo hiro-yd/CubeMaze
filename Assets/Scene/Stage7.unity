@@ -15049,6 +15049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u76EE\u6A19\u79FB\u52D5\u56DE\u657017"
   JpFontSize: 61
   UsText: Target Movements17
@@ -23319,6 +23321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u76EE\u6A19\u79FB\u52D5\u56DE\u657017"
   JpFontSize: 57
   UsText: Target Movements17
@@ -35347,6 +35351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u30A2\u30A4\u30B9"
   JpFontSize: 184
   UsText: Ice

@@ -342,6 +342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u30A2\u30A4\u30B92"
   JpFontSize: 50
   UsText: Ice2
@@ -1529,6 +1531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u56DE\u6570"
   JpFontSize: 50
   UsText: Times
@@ -2023,6 +2027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u5168\u4F53\u97F3\u91CF"
   JpFontSize: 35
   UsText: Master
@@ -4104,6 +4110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u8A2D\u5B9A"
   JpFontSize: 60
   UsText: Settings
@@ -4678,6 +4686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u6CE5\u3068\u6C34"
   JpFontSize: 50
   UsText: Mud and Water
@@ -4865,6 +4875,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u8A00\u8A9E"
   JpFontSize: 60
   UsText: Language
@@ -4955,6 +4967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u52B9\u679C\u97F3"
   JpFontSize: 35
   UsText: SE
@@ -5288,6 +5302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u6700\u5F8C\u306E\u8A66\u7DF4"
   JpFontSize: 50
   UsText: The last trial
@@ -6286,6 +6302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u4ED5\u639B\u3051"
   JpFontSize: 50
   UsText: Trick
@@ -7711,6 +7729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u30EF\u30FC\u30D7"
   JpFontSize: 50
   UsText: Warp
@@ -8008,6 +8028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u306F\u3058\u307E\u308A"
   JpFontSize: 50
   UsText: Start
@@ -8059,6 +8081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u30BB\u30FC\u30D6\u30C7\u30FC\u30BF\u3092<color=red>\u524A\u9664</color>\u3057\u307E\u3059\u304B\uFF1F"
   JpFontSize: 45
   UsText: <color=red>Delete</color> save data?
@@ -8563,6 +8587,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u97F3\u697D"
   JpFontSize: 35
   UsText: BGM
@@ -8766,6 +8792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u8B0E\u89E3\u304D"
   JpFontSize: 50
   UsText: Mystery
@@ -9100,6 +9128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u8AAC\u660E"
   JpFontSize: 50
   UsText: Tutorial
@@ -9301,6 +9331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37d4b0703e3547445bfe9ad7a6012212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  us: {fileID: 12800000, guid: 4506bf6ca285b494ab0993e12703d5e6, type: 3}
+  jp: {fileID: 12800000, guid: d90148dc6e73506408a068405acb2250, type: 3}
   JpText: "\u30A2\u30A4\u30B9"
   JpFontSize: 50
   UsText: Ice
