@@ -25,9 +25,9 @@ public class WallMove : MonoBehaviour
         for (int i = 0; i < wall.Length; i++)
         {
             wall[i].transform.position += new Vector3(0, -0.1f, 0);
-            if (wall[i].transform.position.y <= -0.5)
+            if (wall[i].transform.position.y <= -0.55)
             {
-                wall[i].transform.position = new Vector3(wall[i].transform.position.x,-0.5f,wall[i].transform.position.z);
+                wall[i].transform.position = new Vector3(wall[i].transform.position.x,-0.55f,wall[i].transform.position.z);
                 isMove = false; isUse = true;
             }
         }

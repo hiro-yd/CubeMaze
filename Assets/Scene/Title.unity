@@ -1388,7 +1388,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 09cccc55f55ee8346a205dec694623bc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31783184365089a4ea587ea06d300866, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1414,9 +1414,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Image:
-  - {fileID: 21300000, guid: 91644467c1296a74fb4431510a6919f8, type: 3}
-  - {fileID: 21300000, guid: 710ebede8d28a8445be60d4fa931ee93, type: 3}
-  - {fileID: 21300000, guid: 09cccc55f55ee8346a205dec694623bc, type: 3}
+  - {fileID: 21300000, guid: 31783184365089a4ea587ea06d300866, type: 3}
+  - {fileID: 21300000, guid: 069d1de485548764d973567d1776409b, type: 3}
+  - {fileID: 21300000, guid: c586d1fc42d0e874aa0958763f4b681f, type: 3}
   SetTime: 1.5
 --- !u!1 &252633293
 GameObject:
